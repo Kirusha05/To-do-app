@@ -76,13 +76,13 @@ function checkTask(element){
 
 function isAnyTask() {
     if (todoList.innerHTML === '') {
-        tasksTodo.textContent = "You have no task!"
+        tasksTodo.textContent = "You have nothing to-do!"
     } else {
         tasksTodo.textContent = "All Tasks";
     }
     
     if (doneList.innerHTML === '') {
-        tasksDone.textContent = '';
+        tasksDone.textContent = 'You have yet to complete any tasks.';
     } else {
         tasksDone.textContent = 'Completed tasks';
     }
